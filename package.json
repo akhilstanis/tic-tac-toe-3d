@@ -1,0 +1,40 @@
+{
+  "name": "tic-tac-toe-3d",
+  "version": "0.0.0",
+  "description": "Tic-Tac-Toe in 3D",
+  "author": "Akhil Stanislavose",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack -p",
+    "start": "webpack serve --mode development --content-base ./public"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.168",
+    "@types/react": "^17.0.4",
+    "@types/react-dom": "^17.0.3",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/three": "^0.127.1",
+    "ts-loader": "^9.1.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^1.0.12",
+    "@chakra-ui/react": "^1.6.0",
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "^11.3.0",
+    "@react-three/fiber": "^6.0.19",
+    "framer-motion": "^4.1.11",
+    "immer": "^9.0.2",
+    "lodash": "^4.17.21",
+    "nanoid": "^3.1.22",
+    "peerjs": "^1.3.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "three": "^0.128.0"
+  }
+}
